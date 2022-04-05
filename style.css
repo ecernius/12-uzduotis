@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #3CB372;
+    
+}
+main{
+    display: flex;
+    flex: 1;
+    max-width: 1200px;
+margin: auto;    
+    
+
+}
+img{
+    width: 100%;
+}
+.bigsection{
+    margin: 20px;
+    background-color: white;
+
+
+}
+.bigsection p{
+    padding: 0 20px 20px 20px;
+}
+.bigsection h1{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.comm{
+    display: flex;
+    justify-content: space-between;
+}
+.comm p{
+    opacity: 0.8;
+}
+section{
+    display: flex;
+    
+   
+    
+}
+section div{
+    margin: 10px;
+    flex: 1;
+}
+.container{
+   
+margin-top: 20px;
+    background-color: white;
+}
+.container img{
+    width: 100%;
+}
+section p {
+    padding: 0 20px 20px 20px;
+}
+
+section h1 {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+section .comm p{
+    padding-top: 50px;
+}
+section:nth-of-type(2){
+    flex-shrink:1.5;
+}
+section:nth-of-type(2){
+    flex-shrink:1.2;
+}
+section{
+display: flex;
+flex-direction: column;
+}
+.container2{
+    
+    margin-top: 20px;
+    background-color: white;
+}
+@media (max-width:600px){
+    main{
+        flex-wrap: wrap;}
+        .container{
+            width: 100%;
+        }
+        .container2{
+            width: 100%;
+        }
+        .bigsection{
+            width: 100%;
+        }
+}
